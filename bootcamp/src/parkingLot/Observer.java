@@ -1,7 +1,5 @@
 package parkingLot;
 
-
 interface Observer {
-
-  void update(ParkingLot observable);
+  void updateLotFull(ParkingLot observable);
 }

@@ -1,6 +1,10 @@
-package com.assignments.java.parkingLot;
+package parkingLotTest;
 
 import org.junit.jupiter.api.Test;
+import parkingLot.Attendant;
+import File.Car;
+import File.NoSpaceAvailableException;
+import File.ParkingLot;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
